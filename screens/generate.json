@@ -1,0 +1,88 @@
+{
+  "type": "INIT_ADD_TEXT",
+  "body": {
+    "json": {
+      "Info": {
+        "activeId": 0,
+        "questions": [
+          {
+            "text": "Как получить приз",
+            "id": "1"
+          },
+          {
+            "text": "Как я узнаю, что я победитель",
+            "id": "2"
+          },
+          {
+            "text": "Какие призы",
+            "id": "3"
+          }
+        ],
+        "question_page": [
+          [
+            {
+              "type": "Head1",
+              "text": "Правила розыгрыша"
+            },
+            {
+              "type": "Paragraph",
+              "text": "adfasdfadfasdfadfadfaff"
+            },
+            {
+              "type": "Head2",
+              "text": "Ну опять"
+            },
+            {
+              "type": "Paragraph",
+              "text": "adfasdfadfasdfadfadfaff"
+            }
+          ],
+          [
+            {
+              "type": "Head1",
+              "text": "Что бы получить приз нужно"
+            },
+            {
+              "type": "Paragraph",
+              "text": "У нас тото сёто и так далее"
+            }
+          ],
+          [
+            {
+              "type": "Head1",
+              "text": "Как я узнаю что я победитель"
+            },
+            {
+              "type": "Paragraph",
+              "text": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex, harum illo impedit quam repudiandae."
+            },
+            {
+              "type": "Anchor",
+              "text": "Узнать как жить",
+              "url": "http://www.reduser.net/forum/forum.php"
+            }
+          ],
+          [
+            {
+              "type": "Head1",
+              "text": "Какие призы"
+            },
+            {
+              "type": "Paragraph",
+              "text": " Призы очень крутые, таких призов нигде нет"
+            },
+            {
+              "type": "Img",
+              "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fklike.net%2F1193-krasivye-kartinki-skachat-besplatno-40-foto.html&psig=AOvVaw3pKYkFE8S2NOOoJZpCAqLN&ust=1581106959952000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjv5sjgvecCFQAAAAAdAAAAABAI"
+            }
+          ]
+        ]
+      },
+      "Hello": {
+        "main_text": "Сканируй :QR код :И выигрывай :Смартфон",
+        "logo_url": "http://a0319139.xsph.ru/img/logo.png",
+        "bg_url": "http://a0319139.xsph.ru/img/hello_bg.jpg"
+      }
+    }
+  }
+}

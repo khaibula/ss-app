@@ -1,0 +1,78 @@
+INIT
+    LAST_UPDATE,
+        REQ {
+            "type":"INIT_LAST_UPDATE",
+        },
+        RES [{
+            id:8,
+            text:{},
+            change_time:2019-11-16T14:28:47.000Z
+        }]
+    ADD_TEXT
+        REQ {
+            type:"INIT_ADD_TEXT",
+            body:{
+                json:{},
+            }
+        },
+        RES {fieldCount:0,affectedRows:1,insertId:9,serverStatus:2,warningCount:0,message:,protocol41:true,changedRows:0}
+
+AUTH
+    SEND_PASSWORD : "AUTH_SEND_PASSWORD",
+        REQ:body:{
+            phone:number,
+            pass:string
+        }
+        RES:{
+            phone: req.body.phone,
+            token: authData.token
+        }
+    PHONE_INFO:"AUTH_PHONE_INFO",
+        REQ:body:{
+            phone: number
+        },
+        RES:{
+            isPhone: boolean,
+        }
+    ADD_PASS:"AUTH_ADD_PASS",
+        REQ:body:{
+            phone:number,
+        }
+        RES:{
+            status:ok
+        }
+    SMS_INFO:"AUTH_SMS_INFO",
+        RES:[
+        {\"status\":\"ok\",\"balance\":[{\"type\":\"RUB\",\"balance\":7.82,\"credit\":0}]},
+        {\"status\":\"ok\",\"senders\":[{\"name\":\"SMS DUCKOHT\",\"status\":\"default\",\"info\":\"\"},
+        {\"name\":\"MediaGramma\",\"status\":\"default\",\"info\":\"\"}]}
+        ]"
+QR
+    ADD_QR: "QR_ADD_QR",
+        REQ{
+            body:{
+                phone: number,
+                fn: number,
+                fd: number,
+                fp: number,
+                s: string ,
+                token: string,
+            }
+        },
+        RES:{
+            isPhone: boolean,
+        }
+
+    NUM_BY_PHONE: "QR_NUM_BY_PHONE",
+    REQ{
+        body:{
+            token: string,
+            phone: number,
+        }
+    },
+    RES: number
+
+
+
+
+

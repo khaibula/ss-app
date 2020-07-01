@@ -1,0 +1,17 @@
+export const INIT = {
+    LAST_UPDATE:"INIT_LAST_UPDATE",
+    ADD_TEXT:"INIT_ADD_TEXT"
+};
+
+export const AUTH = {
+    SEND_PASSWORD : "AUTH_SEND_PASSWORD",
+    PHONE_INFO:"AUTH_PHONE_INFO",
+    ADD_PASS:"AUTH_ADD_PASS",
+    ADD_PASS_DEV:"AUTH_ADD_PASS_DEV",
+    SMS_INFO:"AUTH_SMS_INFO",
+};
+
+export const QR = {
+    ADD_QR: "QR_ADD_QR",
+    NUM_BY_PHONE: "QR_NUM_BY_PHONE",
+};
